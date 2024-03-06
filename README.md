@@ -1,4 +1,5 @@
 # Speech Recognition Tools (RU VERSION)
+## This project is my first Python project.
 Speech Recognition Tools is a Python script that assists in working with the SpeechRecognition module.
 
 ## Before starting the app, install the modules
