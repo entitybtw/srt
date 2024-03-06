@@ -47,7 +47,7 @@ class App(ttk.Frame):
             print(f"Не удалось обработать запрос: {e}")
 
     def setup_widgets(self):
-        pass  # Добавьте здесь создание виджетов
+        pass  
 
 if __name__ == "__main__":
     root = Tk()
