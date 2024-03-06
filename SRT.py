@@ -1,3 +1,4 @@
+# Импорты
 from tkinter import ttk
 from tkinter import Tk
 import tkinter as tk
@@ -8,7 +9,7 @@ import subprocess
 import os
 import time
 
-
+# Код
 class VoiceAssistantGUI:
     existing_actions = set()
 
@@ -108,7 +109,7 @@ class VoiceAssistantGUI:
 
         with open("voice_assistant.py", mode='w', encoding='utf-8') as file:
             file.write(actions_in_script)
-
+# Первая часть прописываемого кода в файл
 def _generate_initial_code():
     initial_code = """
 import speech_recognition as sr
@@ -168,6 +169,7 @@ def _remove_duplicate_elif():
 
     with open("voice_assistant.py", mode='w', encoding='utf-8') as file:
         file.writelines(unique_lines)
+# Вторая часть прописываемого кода в файл
 def _generate_initial_code2():
     initial_code2 = """            else:
                 continue
